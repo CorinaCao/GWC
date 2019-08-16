@@ -1,0 +1,244 @@
+.header{
+  font-family: Trebuchet MS, sans-serif;
+  padding: 200px;
+  text-align: middle;
+  color: darkblue;
+  font-size: 30px;
+  background: #000000 url(https://wallimpex.com/data/out/672/blue-smoke-wallpaper-10264420.jpg) 100% 100% no-repeat;
+}
+
+h2{
+  padding-top: 45px;
+  padding-left: 0px;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+}
+body{
+  background-color: aqua/*#5CDBB9*/;
+  font-family: Trebuchet MS, sans-serif;
+}
+p{
+  font-family: Trebuchet MS, sans-serif;
+  margin: -3px;
+}
+
+.header{
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+  background-color: white;
+  height: 60px;
+  padding-top: 5px;
+
+}
+
+
+.topnav{
+  font-family: Trebuchet MS, sans-serif;
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+  font-family: Trebuchet MS, sans-serif;
+  float: left;
+  display: block;
+  color: #A9C6D8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #ddd;
+  color: black;
+}
+.dot {
+  font-family: Trebuchet MS, sans-serif;
+  transform: translate(3em);
+  top: -650px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #69e2f0;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+}
+
+.test {
+  position: absolute;
+
+}
+#text{
+  padding-top: 60px;
+  text-decoration-color: black;
+}
+
+.textbox {
+  font-family: Trebuchet MS, sans-serif;
+  position: absolute;
+  top: 43px;
+  right: 35px;
+  width: 255px;
+  height: 350px;
+  bottom: 500px;
+  border: 3px solid black;
+}
+
+.img {
+  position: absolute;
+  top: 380px;
+  right: 35px;
+  width: 255px;
+  height: 200px;
+  bottom: 10px;
+  border: 3px solid black;
+}
+#map2{
+  height: 100%;
+  width: 100%;
+}
+.state-wide {
+  position: absolute;
+  top: 3px;
+  right: 25px; <!-- or more to the left? --?>
+  text-decoration: underline;
+
+}
+#state{
+  text-align: center;
+  padding-top: 5px;
+}
+#school{
+  text-align: center;
+}
+.list{
+  font-family: Trebuchet MS, sans-serif;
+  position: absolute;
+  top: -30px;
+  bottom: 100px;
+}
+.schools{
+  font-family: Trebuchet MS, sans-serif;
+  position:absolute;
+     bottom:-300px;
+     width:100%;
+     height:0px;
+}
+/*.stat{
+  height: 400px;
+  width: 400px;
+  display: inline-flex;
+  flex-direction: row;
+  border: 5px solid black;
+}*/
+div.stat {
+  font-family: Trebuchet MS, sans-serif;
+  float: left;
+  height: 400px;
+  width: 35%;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: 3px solid black;
+  margin-right: 5px;
+  padding: 0px;
+  background-color: white;
+}
+
+#stat2{
+  position: relative;
+  top: -10px;
+  margin: 1px;
+}
+#guy{
+  position: relative;
+  top: -10px;
+  margin: 10px;
+  margin-top: 2px;
+}
+#general2{
+  position: relative;
+  top: 10px;
+  margin: 1px;
+}
+
+#vapeschool{
+  position: relative;
+  top: 10px;
+  margin: 10px;
+  margin-top: 2px;
+}
+
+#limited2{
+  position: relative;
+  top: -10px;
+  margin: 1px;
+}
+
+#doctor{
+  position: relative;
+  top: -25px;
+  margin: 10px;
+  margin-top: 2px;
+}
+
+
+/*.general{
+  height: 400px;
+  width: 400px;
+  display: inline-flex;
+  flex-direction: row;
+  border: 5px solid black;
+}*/
+div.general {
+  float: left;
+  height: 400px;
+  /*width: 400px;*/
+  width: 27%;
+  text-align: center;
+  font-family: Trebuchet MS, sans-serif;;
+  font-size: 12px;
+  text-indent: 0;
+  border: 3px solid black;
+  margin-right: 5px;
+  padding: 0px;
+  background-color: white;
+}
+
+/*#stop{
+margin-left: 150px;
+margin-right: 150px;
+
+}*/
+/*
+#stats{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+*/
+/*#why{
+  margin-left: 150px;
+  margin-right: 150px;
+}*/
+/*.limited{
+  height: 400px;
+  width: 410px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: auto;
+  border: 5px solid black;
+}*/
+div.limited {
+  float: left;
+  height: 400px;
+  width: 35%;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: 3px solid black;
+  margin-right: 5px;
+  padding: 0px;
+  background-color: white;
+}

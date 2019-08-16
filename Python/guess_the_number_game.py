@@ -1,0 +1,29 @@
+#imports the ability to get a random number (we will learn more about this later!)
+from random import*
+
+#Generates a random interger.
+aRandomNumber = randint(1,20)
+# For Testing: print (aRandomNumber)
+
+i = 0
+while True:
+    i += 1
+
+    guess = input("Guess a number between 1 and 20 (inclusive):")
+    if not guess.isnumeric(): # checks if a string is only digits 0 to 9
+        print("That's not a positive whole number, try again!")
+    else:
+        guess = int(guess)
+    if(guess == aRandomNumber):
+        print("You got it!")
+        break
+    else:
+        print("Try Again")
+    if(guess > aRandomNumber):
+        print("Go Lower")
+    elif(guess < aRandomNumber):
+        print("Go Higher")
+    if(i == 3):
+        break
+    else:
+        continue

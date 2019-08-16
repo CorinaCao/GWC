@@ -1,0 +1,87 @@
+body {
+  background: #D6F3FF;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+}
+.header{
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background: #000000 url(https://images.unsplash.com/photo-1506210727-8f7aa6d32ff1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60) 100% 100% no-repeat;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: white;
+  color: #A9C6D8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.column1{
+  float: left;
+  width: 33.33%;
+
+  height: 1000px;
+}
+
+.column-left{ float: left; width: 33.333%;
+  height: 1000px;}
+.column-right{ float: right; width: 33.333%;
+  height: 1000px;}
+
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px royalblue;
+}
+
+h2, li, p{
+  color: #555:
+}
+
+a {
+  color: black;
+}
+
+p {
+  background: #1589FF;
+  color: black;
+padding: 10px;
+}
+
+.secondary {
+  background: none;
+  color: #777;
+}
+.table{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  font-size: 30px;
+}
+#special {
+  background: red;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+div.general {
+  height: 200px;
+  width: 00px;
+  width: 30%;
+  text-align: center;
+  font-size: larger;
+}

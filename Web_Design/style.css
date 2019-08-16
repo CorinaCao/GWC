@@ -1,0 +1,14 @@
+h2 {
+  background: black;
+  color: white;
+  padding: 15px;
+
+}
+
+button {
+  background-color: black; /* pink */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 10px;
+}
